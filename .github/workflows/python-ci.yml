@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: '3.11'
           
-      - name: Instalar dependências 
-        run: pip install -r pytest
+      - name: Instalar pytest
+        run: pip install pytest
         
       - name: Rodar testes
         run: pytest
